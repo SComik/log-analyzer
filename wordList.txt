@@ -1,0 +1,7 @@
+' OR '
+<script>
+UNION SELECT
+../../
+etc/passwd
+'--
+setup-config.php
