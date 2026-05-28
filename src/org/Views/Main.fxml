@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="401.0" prefWidth="562.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.Controllers.MainController">
+    <children>
+      <TextField fx:id="tfPathCheck" layoutX="158.0" layoutY="33.0" prefHeight="25.0" prefWidth="375.0" />
+      <Button layoutX="26.0" layoutY="33.0" mnemonicParsing="false" onAction="#eventLoadFile" text="Загрузка файла " />
+      <TextField fx:id="tfPathWordList" layoutX="169.0" layoutY="85.0" prefHeight="25.0" prefWidth="364.0" />
+      <Button layoutX="26.0" layoutY="85.0" mnemonicParsing="false" onAction="#eventWordList" text="Загрузка ворд листа" />
+      <Button layoutX="26.0" layoutY="144.0" mnemonicParsing="false" onAction="#eventCheck" text="Проверка" />
+      <TextArea fx:id="taResult" layoutX="25.0" layoutY="206.0" prefHeight="181.0" prefWidth="513.0" />
+      <ProgressBar fx:id="pbResult" layoutX="124.0" layoutY="148.0" prefHeight="18.0" prefWidth="410.0" progress="0.0" />
+    </children>
+</AnchorPane>
