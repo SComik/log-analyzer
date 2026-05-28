@@ -56,3 +56,5 @@
 3. Нажимаем на кнопку "Проверка"
 
 4. Вывод строк в которых обнаружелась подозрительность
+   <img width="562" height="436" alt="image" src="https://github.com/user-attachments/assets/4cf43356-b4ef-40d0-956f-30e1cf455f8f" />
+
